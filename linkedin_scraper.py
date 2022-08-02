@@ -25,8 +25,8 @@ browser.get('https://www.linkedin.com/login')
 #username and password of the account whose connections 
 #we want to scrape. you can change the user/pass to acces
 #another account
-username = 'ma.rami@yahoo.com'
-password = 'WMV7jmtb3CHn4BH'
+username = 'email@example.com'
+password = '123456789'
 
 #finding and filling out the username/password fields
 elementID = browser.find_element(value = 'username')
